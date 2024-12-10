@@ -41,7 +41,6 @@ let handleLoginUser = (email, password) => {
                     userData.errCode = 2;
                     userData.errMessage = `User's not found`
                 }
-                // resolve();
             } else {
                 userData.errCode = 1;
                 userData.errMessage = `Your's email isn't exist in your system. Plz try orther email`
